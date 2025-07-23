@@ -29,7 +29,7 @@ const works = [
 
 export default function Second() {
   return (
-    <div className="my-[4%] max-sm: m-4 ">
+    <div className="my-[4%] max-sm: m-4  ">
       <h1 className="text-center text-black font-bold text-3xl max-sm:text-2xl max-md:text-2xl ">
         We Offer creative working <br /> environments
       </h1>

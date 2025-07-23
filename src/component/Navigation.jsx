@@ -3,7 +3,7 @@ import { MdOutlineDashboard } from "react-icons/md";
 
 export default function Navigation() {
   return (
-    <div className="mx-[2%] my-3 flex justify-between max-sm:flex-col max-md:flex ">
+    <div className="mx-[2%] my-3 flex justify-between max-sm:flex-col max-md:flex max-sm:ml-[2%] max-sm:mr-[2%] ">
       <div className="flex ml-[7%]">
         <MdOutlineDashboard className="text-primary-color-600 text-5xl" />
         <h1 className="text-black text-2xl font-bold pt-1 pl-2">

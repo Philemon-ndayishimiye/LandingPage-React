@@ -5,7 +5,7 @@ export default function Mission() {
   return (
     <div
       style={{ backgroundImage: `url(${image1})` }}
-      className="h-[60%] w-full bg-cover bg-center text-center pt-12 pb-16 max-sm:m-2"
+      className="h-[60%] w-full bg-cover bg-center text-center pt-12 pb-16 max-sm:m-2 m-0"
     >
       <h1 className="text-3xl font-bold max-md:text-2xl">
         <span className="  text-primary-color-800 ">Our </span> Mission

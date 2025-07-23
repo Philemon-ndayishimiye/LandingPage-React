@@ -60,7 +60,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex gap-[130px] ml-[10%] mt-[100px] mb-[200px] max-sm:mb-[30px] max-sm:flex-col max-sm:gap-[70px] ">
+    <div className="flex gap-[130px] ml-[10%] mt-[100px] mb-[200px] mr-[11%] max-sm:mb-[30px] max-sm:flex-col max-sm:gap-[70px] ">
       <div>
         <h2 className="text-primary-color-500 font-bold text-xl mb-7 ">
           Contact Us

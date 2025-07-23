@@ -4,7 +4,7 @@ import image1 from "../assets/image3.png";
 
 export default function () {
   return (
-    <div className="ml-[10%] mb-[120px] max-lg:mr-[40px]">
+    <div className="ml-[10%] mb-[120px] max-lg:mr-[40px] mr-[14%]">
       <p className="text-center text-primary-color-400 text-xl">
         Your Benefits
       </p>
