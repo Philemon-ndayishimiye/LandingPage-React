@@ -8,7 +8,7 @@ export default function Section() {
   return (
     <div
       style={{ backgroundImage: `url(${background})` }}
-      className="h-screen w-full bg-cover bg-center text-center pt-[13%] mr-0 max-sm:mr-0 "
+      className="h-screen w-full  bg-cover bg-center text-center mt-[40px] pt-[13%] mr-0 max-sm:mr-0 "
     >
       <span className="text-white font-semibold text-xl">
         The Best WorkSpace in Kigali

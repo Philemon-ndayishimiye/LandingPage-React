@@ -1,9 +1,10 @@
 import React from "react";
 import { MdOutlineDashboard } from "react-icons/md";
+import Menu from "./Menu";
 
 export default function Navigation() {
   return (
-    <div className="mx-[2%] my-3 flex justify-between max-sm:flex-col max-md:flex max-sm:ml-[2%] max-sm:mr-[2%] ">
+    <div className=" fixed top-0 left-0 bg-white w-full   mb-3 flex justify-between max-sm:flex-col max-md:flex max-sm:mr-[2%] ">
       <div className="flex ml-[7%]">
         <MdOutlineDashboard className="text-primary-color-600 text-5xl" />
         <h1 className="text-black text-2xl font-bold pt-1 pl-2">
@@ -12,7 +13,7 @@ export default function Navigation() {
         </h1>
       </div>
 
-      <div className="mr-[10%] pt-2">
+      <div className="mr-[10%] pt-2 max-sm:hidden">
         <a
           className="  text-primary-color-600 pl-6 font-semibold cursor-pointer hover:text-primary-color-600"
           href="#"
@@ -37,6 +38,10 @@ export default function Navigation() {
         >
           Contact
         </a>
+      </div>
+
+      <div>
+        <Menu />
       </div>
     </div>
   );

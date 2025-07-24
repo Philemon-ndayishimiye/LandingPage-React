@@ -37,8 +37,8 @@ export default function Footer() {
               <FaTwitter className="text-primary-color-500 text-xl max-md:text-xs max-md:w-[30px] max-md:h-[30px]" />
             </div>
 
-            <div className="w-[40px] h-[40px] rounded-full border border-primary-color-500 flex items-center justify-center cursor-pointer">
-              <FaLinkedinIn className="text-primary-color-500 text-xl max-md:text-xs max-md:w-[30px] max-md:h-[30px]" />
+            <div className="w-[40px] h-[40px] rounded-full border border-primary-color-500 flex items-center justify-center cursor-pointer ">
+              <FaLinkedinIn className="text-primary-color-500 text-xl max-md:text-xs max-md:w-[30px] max-md:h-[30px] max-sm:text-xs max-sm:font-light " />
             </div>
 
             <div className="w-[40px] h-[40px] rounded-full border border-primary-color-500 flex items-center justify-center cursor-pointer">

@@ -12,7 +12,7 @@ export default function About() {
         </h1>
       </div>
 
-      <div className="border-l border-black p-5 max-md:border-l max-sm:p-0 max-sm:pt-3">
+      <div className="border-l border-black p-5 max-md:border-l max-sm:p-0 max-sm:pt-3 max-sm:border-none">
         <p className="pl-3  pb-3  max-sm:pl-0 ">
           Lorem ipsum dolor sit amet consectetur adipiscing elit torquent,
           conubia <br /> leo rutrum praesent dui turpis lobortis, vulputate
